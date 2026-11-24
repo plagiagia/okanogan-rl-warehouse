@@ -1,0 +1,5 @@
+method,seed,greedy_mean_10,noisy_mean_5,noisy_worst_of_5
+NFQ,0,-19.9,293.7,-20.0
+NFQ,1,508.0,481.0,328.2
+DQN,0,347.5,259.6,9.6
+DQN,1,405.6,405.4,101.7

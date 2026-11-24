@@ -1,0 +1,5 @@
+method,seed,mean_return,std,best_episode,minutes
+NFQ,0,-19.9,0.3,-19.0,30.4
+NFQ,1,508.0,119.6,646.9,28.7
+DQN,0,347.5,155.9,568.1,28.7
+DQN,1,405.6,194.9,739.4,26.2

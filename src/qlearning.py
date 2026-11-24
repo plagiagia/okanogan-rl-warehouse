@@ -5,6 +5,7 @@ import numpy as np
 def train_q_learning(env, episodes=5000, alpha=0.1, gamma=0.99,
                      eps_start=1.0, eps_end=0.05, eps_decay=0.999, seed=0):
     rng = np.random.default_rng(seed)
+    env.action_space.seed(seed)
     Q = np.zeros((env.observation_space.n, env.action_space.n))
     eps = eps_start
     returns, lengths, success = [], [], []
@@ -36,6 +37,7 @@ def evaluate_q(env, Q, episodes=200, seed=10_000):
 
 
 def evaluate_random(env, episodes=200, seed=10_000):
+    env.action_space.seed(seed)
     returns, lengths, success = [], [], []
     for ep in range(episodes):
         env.reset(seed=seed + ep)

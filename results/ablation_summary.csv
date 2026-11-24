@@ -1,0 +1,7 @@
+,delivery_rate,delivery_rate,collision_rate,collision_rate,bumps_per_episode,bumps_per_episode,path_efficiency,path_efficiency
+,mean,std,mean,std,mean,std,mean,std
+variant,,,,,,,,
+naive,0.003,0.003,0.051,0.072,4.086,5.752,0.667,0.577
+replay_only,0.456,0.086,0.001,0.002,0.074,0.129,0.988,0.004
+target_only,0.016,0.012,0.0,0.0,0.0,0.0,0.969,0.028
+replay+target,0.471,0.107,0.014,0.02,1.059,1.439,0.986,0.003

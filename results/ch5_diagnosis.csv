@@ -1,0 +1,8 @@
+policy,delivery_rate,collision_rate,bumps_per_episode,path_efficiency
+greedy + 0% random actions,0.36,0.037,2.697,0.985
+greedy + 2% random actions,0.417,0.29,2.45,0.882
+greedy + 5% random actions,0.507,0.47,3.113,0.778
+greedy + 10% random actions,0.573,0.673,3.053,0.677
+greedy + safety mask,0.373,0.0,0.0,0.984
+greedy + safety mask + 5% random (safe) actions,0.56,0.0,0.0,0.752
+greedy + safety mask + 10% random (safe) actions,0.623,0.0,0.0,0.697
